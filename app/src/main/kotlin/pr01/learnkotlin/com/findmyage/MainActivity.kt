@@ -11,6 +11,9 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
 
+    //Todo: some animations should be added for interactive design
+
+
 
     //==================================================
     //Class Level Gobal Variable Area
@@ -25,11 +28,17 @@ class MainActivity : AppCompatActivity() {
         //---------  Looking for controls ----------------
         tvOutputAge.setTextColor(Color.BLUE)
         /*hint will be provided to user so that He could enter Year of Birth*/
+
+
+        //Todo: Strings should be putt into resources for multilanguage support
+
         editText.setHint("Enter Birth Year")
         editText.textSize = 35.3f       //just to make this more bigger
 
         //----------------- Button Click Listner ------------
         btnFindAge.setOnClickListener{
+
+            //Todo: Age validation should be done on seperate function
 
             val edtYearInText:String = editText.text.toString()
             val enteredYear = edtYearInText.toInt()
