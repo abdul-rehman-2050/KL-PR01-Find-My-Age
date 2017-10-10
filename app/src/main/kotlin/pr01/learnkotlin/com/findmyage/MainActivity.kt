@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
 
 
 
+    //==================================================
+    //Class Level Gobal Variable Area
+    //==================================================
 
 
     /*------- Default On Create method ------*/
