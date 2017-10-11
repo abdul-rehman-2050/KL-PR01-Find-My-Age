@@ -64,11 +64,15 @@ class MainActivity : AppCompatActivity() {
                 * Third check is not required explicitly as enteredYear = currentYear is acceptable
                 *
                 *
-                * If all above are true It means User input an Invalid Data promt in approperiate way
+                * If all above are true It means User input an Invalid Data prompt in appropriate way
                 *
                 * */
 
                 tvOutputAge.text="InValid Birth Year!!!"
+
+
+                //Todo: Colors should also be added to resources so that It would be easy to replace
+
                 tvOutputAge.setTextColor(Color.RED)
 
 
